@@ -104,7 +104,7 @@ collections:
             widget: "list"
             fields:
               - {label: "Text", name: "text", widget: "string"}
-              - {label: "src", name: "url", widget: "string"}
+              - {label: "src", name: "src", widget: "string"}
               - {label: "link", name: "text", widget: "boolean", required: false}
       - label: "Theme Settings"
         name: "theme"
