@@ -5,7 +5,7 @@ const {
   helpers,
 } = previewUtil;
 
-const env = nunjucks.configure();
+const env = nunjucks.configure({autoescape: false});
 
 env.addFilter('w3DateFilter', w3DateFilter);
 env.addFilter('markdownFilter', markdownFilter);

@@ -3,11 +3,11 @@
 // Pull in the stalfos lib
 @import '../../node_modules/stalfos/stalfos.scss';
 
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"; 
 // Local mixins
 @import 'mixins/dark-mode';
 
 @import 'theme';
-
 // Local dependencies
 @import 'typography';
 
@@ -49,6 +49,9 @@ hr {
 @import 'utilities/visually-hidden';
 @import 'utilities/wrapper';
 
+@import 'agency/agency';
+
+
 // Components
 @import 'components/button';
 @import 'components/heading-permalink';
@@ -61,4 +64,4 @@ hr {
 @import 'components/site-foot';
 @import 'components/skip-link';
 @import 'components/syntax-highlighting';
-@import 'components/video-player';
+// @import 'components/video-player';

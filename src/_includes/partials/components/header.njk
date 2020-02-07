@@ -1,0 +1,19 @@
+{% if header.items %}
+  <div itemscope itemprop="Person" itemtype="http://schema.org/Person">
+    <header class="masthead" id="about">
+      <div class="container">
+        <div class="intro-text">
+          <img itemprop="image" src="img/hila.jpg" class="profile-img-intro" alt="photo of hila amit"></img>
+          <div itemprop="description" class="intro-lead-in">
+            <span itemprop="jobTitle">Dr.</span>
+            <span itemprop="name">Hila Amit</span>
+            {% for item in header.items %}
+              {{ item.text| safe }}
+
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+{% endif %}
