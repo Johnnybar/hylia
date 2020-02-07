@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master
 publish_mode: editorial_workflow
-site_url: "https://example.com"
+site_url: "https://affectionate-kirch-0533c4.netlify.com/"
 media_folder: "src/images"
 public_folder: "images"
 collections:
@@ -94,6 +94,18 @@ collections:
               - {label: "Text", name: "text", widget: "string"}
               - {label: "Url", name: "url", widget: "string"}
               - {label: "Is url to external site?", name: "external", widget: "boolean", required: false}
+      - label: "Fiction"
+        name: "fiction"
+        delete: false
+        file: "src/_data/fiction.json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Text", name: "text", widget: "string"}
+              - {label: "src", name: "url", widget: "string"}
+              - {label: "link", name: "text", widget: "boolean", required: false}
       - label: "Theme Settings"
         name: "theme"
         delete: false
