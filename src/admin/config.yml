@@ -109,7 +109,6 @@ collections:
           - label: "Headline"
             name: 'headline'
             widget: string
-            text: "Text"
       - label: "Theme Settings"
         name: "theme"
         delete: false
