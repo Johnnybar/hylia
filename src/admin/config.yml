@@ -109,6 +109,26 @@ collections:
           - label: "Headline"
             name: 'headline'
             widget: string
+      - label: "NFE"
+        name: "NFE"
+        delete: false
+        file: "src/_data/NFE.json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "summary", name: "summary", widget: "string"}
+              - {label: "details", name: "details", widget: "string", required: false}
+              - {label: "link", name: "link", widget: "string"}
+              - {label: "src", name: "src", widget: "image"}
+              - {label: "additionalText", name: "additionalText", widget: "string", required: false}
+              - {label: "hasReadmore", name: "text", widget: "boolean", required: false}
+              - {label: "hasImage", name: "text", widget: "boolean", required: false}
+              - {label: "hasTwoImages", name: "text", widget: "boolean", required: false}
+          - label: "Headline"
+            name: 'headline'
+            widget: string
       - label: "Theme Settings"
         name: "theme"
         delete: false

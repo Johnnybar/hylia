@@ -1,183 +1,69 @@
 <section id="non-fiction">
-        <div class="container">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Non-Fiction</h2>
-                <h3 class="section-subheading text-muted">Dr. Amit’s non-fiction work focuses on political activism, queer kinship, national belonging and diasporic communities. In her book A Queer Way Out – The politics of queer Israeli emigration (Albany, NY: SUNY Press, 2018) she argued that
-                    emigration from Israel is a subversive act that symbolizes a refusal to answer Zionism in the currency of heroism and active resistance. She was awarded the ECPR Joni Lovenduski Prize in Gender and Politics for her dissertation in
-                    2017.
-                </h3>
-            </div>
-            <h5 class="text-center mb-5">Publications in English</h5>
-            <div class="row text-left mb-5">
-                <br>
-                <div itemscope="" itemtype="http://schema.org/Book" class="col-sm-2">
+    <div class="container">
+        {{NFE}}
+        {# {% if NFE.items %} #}
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Non-Fiction</h2>
+            <h3 class="section-subheading text-muted">
+                {{NFE.headline}}
+            </h3>
+        </div>
+        <h5 class="text-center mb-5">Publications in English</h5>
+        <div class="row text-left mb-5">
+            <br>
+            {% for item in NFE.items %}
+                {% if item.hasReadmore == 'true' %}
+                    <div itemscope="" itemtype="http://schema.org/Book" class="col-sm-2 border-right">
+                        <h3 class="section-subheading mb-4 text-muted">
+                            <details>
+                                <summary>
+                                    <small>
+                                        <a href="{{item.link}}" target="_blank">
+                                            <span itemprop="name">
+                                                {{item.summary |safe}}}
+                                         </a>
+                                        </small>
+                                    </summary>
+                                    <small>
+                                        {{item.details}}}
+                            </small>
+                                </details>
 
-                    <h3 class="section-subheading mb-4 text-muted">
-                        <details>
-                            <summary>
+                                {% if item.additionalText  %}
+                                    <br>
+                                    {{item.additionalText}}
+                                    {% endif %}
+                            </h3>
+                        </div>
+                            {% if item.hasImage == 'true' %}
+                                <div class="col-sm-2 border-right">
+                                    <img src="{{item.src | safe}}" alt="" class="w-100">
+                                </div>
+                            {% endif %}
+                    {% else %}
+                        <div class="col-sm-2 border-right ">
+                            <h3 class="section-subheading mb-4 text-muted">
                                 <small>
-                                    <a href="https://www.sunypress.edu/p-6576-a-queer-way-out.aspx" target="_blank">
-                                        <span itemprop="name"> Queer Way Out – The
-                                            politics of queer Israeli emigration</span> (Albany, NY: SUNY Press,
-                                        2018)</a> </small></summary><small>
-                            The very language of Zionism prizes the concept of immigration to Israel (aliyah, literally
-                            ascending) while stigmatizing emigration from Israel (yerida, descending). In A Queer Way
-                            Out, Hila Amit explores
-                            the as-yet-untold story of
-                            queer Israeli emigrants. Drawing on extensive fieldwork in Berlin, London, and New York, she
-                            examines
-                            motivations for departure and feelings of unbelonging to the Israeli national collective.
-                            Amit shows
-                            that sexual orientation and left-wing political affiliation play significant roles in
-                            decisions to
-                            leave. Queer Israeli emigrants question national and heterosexual norms such as army
-                            service,
-                            monogamy, and reproduction. Amit argues that emigration itself is not only a political act,
-                            but one
-                            that pioneers a deliberately unheroic form of resistance to Zionist ideology. This
-                            fascinating study
-                            enriches our understandings of migration, political activism, and queer forms of living in
-                            Israel and
-                            beyond.
+                                    <a href="{{item.link | safe }}" target="_blank" rel="noopener noreferrer">
+                                        {{item.summary | safe}}</a>
+                                </small>
+                            </h3>
+                        </div>
+                        {% if item.hasImage == 'true' %}
+                            <div class="col-sm-2 border-right">
+                                <img src="{{item.src |safe}}" alt="" class="w-100">
+                            </div>
+                        {% endif %}
+                        {% if item.hasTwoImages == 'true' %}
+                            <div class="col-sm-2 border-right">
+                                <img src="{{item.image2src |safe}}" alt="" class="w-100">
+                            </div>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+                {# {% endif %} #}
 
-                            </small>
-                        </details>
-                        <br> Winner of the 2019 AMEWS Book Award
-
-                    </h3>
-                </div>
-
-                <div class="col-sm-2 border-right">
-                    <img src="img/covers/aqueer_cover.JPG" alt="queerwayout" class="w-100">
-
-                </div>
-                <div class="col-sm-2 border-right">
-                    <h3 class="section-subheading mb-4 text-muted">
-                        <details>
-                            <summary>
-                                <small><a href="https://www.tandfonline.com/doi/abs/10.1080/2201473X.2018.1487119?journalCode=rset20" target="_blank">
-                                        Israel, Zionism and the Emigration Anxiety: The case of Israeli Academia</a>
-                            </small></summary><small><br>
-                            Rutledge, Settler Colonial Studies, volume 9, 2019, issue 1 : Settles and Citizens: A
-                            critical view of
-                            Israeli Society
-
-                            </small>
-                        </details>
-
-                    </h3>
-                </div>
-                <div class="col-sm-2 border-right ">
-                    <h3 class="section-subheading mb-4 text-muted"><small><a href="https://972mag.com/why-do-lgbt-israelis-leave-the-country/117497/" target="_blank">
-                                Why do LGBT Israelis Leave the Country</a>
-                            +972, 29.2.2016
-
-                        </small></h3>
-                </div>
-                <div class="col-sm-2 border-right ">
-                    <h3 class="section-subheading mb-4 text-muted"><small><a href="https://www.academia.edu/34147387/The_Revival_of_Diasporic_Hebrew_in_Contemporary_Berlin_-_book_chapter" target="_blank" rel="noopener noreferrer"> The Revival of Diasporic Hebrew in
-                                Contemporary
-                                Berlin</a>
-                        </small></h3>
-                </div>
-                <div class="col-sm-2 border-right ">
-                    <h3 class="section-subheading mb-4 text-muted"><small><a href="https://www.berghahnbooks.com/title/BauerCultural" target="_blank" rel="noopener noreferrer">
-                                Topographies of the New Berlin, book chapter, 2017</a>
-                        </small></h3>
-                </div>
-            </div>
-
-            <div class="row mt-4 mb-5">
-
-                <div itemscope="" itemtype="http://schema.org/Book" class="col-sm-2">
-
-                    <h3 class="section-subheading mb-4 text-muted"><small><b>Hebrew For All </b>- <br>
-                            The first queer feminist Hebrew learning book, forthcoming in 2020 in English and German
-                        </small></h3>
-                </div>
-                <div class="col-sm-2">
-                    <img src="img/covers/hebrewforall-de.png" alt="hebrew book german" class="w-100">
-
-                </div>
-                <div class="col-sm-2 border-right">
-                    <img src="img/covers/hebrewforall-he.png" alt="hebrew book hebrew" class="w-100">
-
-                </div>
-            </div>
-
-
-
-        </div>
-
-        <h5 class="text-center mb-5">Publications in Hebrew</h5>
-        <div class="container">
-            <div class="row text-right">
-
-
-                <br>
-                <div class="col-sm-2 border-right ">
-                    <h3 class="section-subheading mb-4 text-muted"><small><a href="https://www.haokets.org/2013/11/18/%D7%A0%D7%A4%D7%95%D7%9C%D7%AA-%D7%A9%D7%9C-%D7%A0%D7%9E%D7%95%D7%A9%D7%95%D7%AA-%D7%94%D7%93%D7%95%D7%A8-%D7%94%D7%91%D7%90/" target="_blank" rel="noopener noreferrer">
-                            נפולת של נמושות, הדור הבא<br></a>
-                        העוקץ, 18.11.2013
-                    </small></h3>
-                </div>
-                <div class="col-sm-2 border-right border-50">
-                    <h3 class="section-subheading mb-4 text-muted"><small><a href="https://www.haokets.org/2014/07/15/%D7%9C%D7%AA%D7%95%D7%95%D7%9A-%D7%91%D7%99%D7%9F-%D7%97%D7%95%D7%9C%D7%99%D7%9D-%D7%A2%D7%96%D7%AA%D7%99%D7%99%D7%9D-%D7%9C%D7%A9%D7%95%D7%9E%D7%A8%D7%99-%D7%94%D7%A1%D7%A3-%D7%94%D7%99%D7%A9%D7%A8/" target="_blank" rel="noopener noreferrer">
-                            לתווך בין חולים עזתיים לשומרי הסף הישראלים<br></a>
-                        העוקץ, 15.7.2014
-                    </small></h3>
-                </div>
-
-                <div class="col-sm-2 border-right border-50">
-                    <h3 class="section-subheading mb-4 text-muted"><small><a href="https://theory-and-criticism.vanleer.org.il/product/%D7%A0%D7%A7%D7%95%D7%93%D7%95%D7%AA-%D7%99%D7%A6%D7%99%D7%90%D7%94-%D7%A6%D7%99%D7%A8-%D7%94%D7%96%D7%9E%D7%9F-%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%95%D7%94%D7%92%D7%99%D7%A8%D7%94-%D7%A7%D7%95/" target="_blank" rel="noopener noreferrer">
-                            נקודות יציאה: ציר הזמן הלאומי והגירה קווירית מישראל<br></a>
-                        תיאוריה וביקורת 45, חורף 2015
-                    </small></h3>
-                </div>
-
-                <div class="col-sm-2 border-right">
-                    <h3 class="section-subheading mb-4 text-muted"><small><a href="https://www.haokets.org/2016/02/28/%D7%90%D7%9C-%D7%9E%D7%95%D7%9C-%D7%94%D7%B4%D7%94%D7%A1%D7%91%D7%A8%D7%94%D7%B4-%D7%94%D7%92%D7%99%D7%A8%D7%94-%D7%A7%D7%95%D7%95%D7%99%D7%A8%D7%99%D7%AA-%D7%9E%D7%99%D7%A9%D7%A8%D7%90%D7%9C/" target="_blank" rel="noopener noreferrer">
-                            אל מול ההסברה – הגירה קווירית מישראל<br></a>
-                        העוקץ, 28.2.2016
-
-                    </small></h3>
-                </div>
-                <div class="col-sm-2 border-right">
-                    <h3 class="section-subheading mb-4 text-muted"><small><a href="https://www.haaretz.co.il/opinions/.premium-1.3031476" target="_blank" rel="noopener noreferrer">
-                            ליסה פרץ, הניחי לנו<br></a>
-                        הארץ, 7.8.2016
-
-                    </small></h3>
-                </div>
-                <div class="col-sm-2 border-right">
-                    <h3 class="section-subheading mb-4 text-muted"><small><a href="https://www.haokets.org/2015/08/19/%D7%90%D7%AA-%D7%9E%D7%99-%D7%A4%D7%94-%D7%A6%D7%A8%D7%99%D7%9A-%D7%9C%D7%A9%D7%9C%D7%95%D7%97-%D7%9C%D7%99%D7%95%D7%9D-%D7%9C%D7%99%D7%9E%D7%95%D7%93%D7%99%D7%9D-%D7%90%D7%A8%D7%95%D7%9A/" target="_blank" rel="noopener noreferrer">
-                            מדינה בהפרעה<br></a>
-                        העוקץ, 19.8.2018
-                    </small></h3>
-                </div>
-                <!-- <hr class="w-50" align="right"> -->
-            </div>
-            <div class="row text-right mt-4">
-                <div class="col-sm-6">
-                </div>
-                <div class="col-sm-2 border-right">
-                    <h3 class="section-subheading mb-4 text-muted"><small><a href="https://www.ynet.co.il/articles/0,7340,L-3983296,00.html" target="_blank" rel="noopener noreferrer">
-                            סערה בנגב: עיירות הפיתוח נגד המועצות המקומיות<br></a>
-                        Ynet, 14.11.2010
-                    </small></h3>
-                </div>
-                <div class="col-sm-2 border-right">
-                    <h3 class="section-subheading mb-4 text-muted"><small><a href="https://www.haokets.org/2011/06/11/%D7%94%D7%A8%D7%97%D7%A7-%D7%9E%D7%92%D7%9F-%D7%A2%D7%93%D7%9F/" target="_blank" rel="noopener noreferrer">
-                            הרחק מגן עדן<br></a>
-                        העוקץ, 11.6.2011
-                    </small></h3>
-                </div>
-                <div class="col-sm-2 border-right">
-                    <h3 class="section-subheading mb-4 text-muted"><small><a href="https://www.haokets.org/2012/04/13/%D7%9B%D7%A9%D7%94%D7%A0%D7%95%D7%A1%D7%A2%D7%99%D7%9D-%D7%94%D7%9D-%D7%97%D7%A9%D7%95%D7%93%D7%99%D7%9D/" target="_blank" rel="noopener noreferrer">
-                            כשהנוסעים הם חשודים<br></a>
-                        העוקץ, 13.4.2012
-                    </small></h3>
-                </div>
             </div>
         </div>
+
     </section>
