@@ -6,44 +6,44 @@
       "link": "https://www.sunypress.edu/p-6576-a-queer-way-out.aspx",
       "src": "images/covers/aqueer_cover.JPG",
       "additionalText": "Winner of the 2019 AMEWS Book Award",
-      "hasReadmore": "true",
-      "hasImage": "true"
+      "hasReadmore": true,
+      "hasImage": true
     },
     {
       "summary": "Israel, Zionism and the Emigration Anxiety: The case of Israeli Academia",
       "details": "Rutledge, Settler Colonial Studies, volume 9, 2019, issue 1 : Settles and Citizens: A critical view of Israeli Society",
       "link": "https://www.tandfonline.com/doi/abs/10.1080/2201473X.2018.1487119?journalCode=rset20",
-      "hasReadmore": "true",
-      "hasImage": "false"
+      "hasReadmore": true,
+      "hasImage": false
     },
     {
       "summary": "Why do LGBT Israelis Leave the Country",
       "details": "+972, 29.2.2016",
       "link": "https://972mag.com/why-do-lgbt-israelis-leave-the-country/117497/",
-      "hasReadmore": "false",
-      "hasImage": "false"
+      "hasReadmore": false,
+      "hasImage": false
     },
     {
       "summary": "The Revival of Diasporic Hebrew in Contemporary Berlin",
       "details": "",
       "link": "https://www.academia.edu/34147387/The_Revival_of_Diasporic_Hebrew_in_Contemporary_Berlin_-_book_chapter",
-      "hasReadmore": "false",
-      "hasImage": "false"
+      "hasReadmore": false,
+      "hasImage": false
     },
     {
       "summary": "Topographies of the New Berlin, book chapter, 2017",
       "details": "",
       "link": "https://www.berghahnbooks.com/title/BauerCultural",
-      "hasReadmore": "false",
-      "hasImage": "false"
+      "hasReadmore": false,
+      "hasImage": false
     },
     {
       "summary": "Hebrew For All -The first queer feminist Hebrew learning book, forthcoming in 2020 in English and German",
       "details": "",
       "src": "images/hebrewforall-de.png",
-      "hasReadmore": "false",
-      "hasImage": "true",
-      "hasTwoImages": "true"
+      "hasReadmore": false,
+      "hasImage": true,
+      "hasTwoImages": true
     },
     {
       "summary": "This is summary",

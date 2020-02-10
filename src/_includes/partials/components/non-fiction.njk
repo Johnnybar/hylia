@@ -12,7 +12,7 @@
         <div class="row text-left mb-5">
             <br>
             {% for item in NFE.items %}
-                {% if item.hasReadmore == 'true' %}
+                {% if item.hasReadmore == true %}
                     <div itemscope="" itemtype="http://schema.org/Book" class="col-sm-2 border-right">
                         <h3 class="section-subheading mb-4 text-muted">
                             <details>
@@ -40,7 +40,7 @@
                             {% endif %}
                         </h3>
                     </div>
-                    {% if item.hasImage == 'true' %}
+                    {% if item.hasImage == true %}
                         <div class="col-sm-2 border-right">
                             <img src="{{item.src | safe}}" alt="" class="w-100">
                         </div>
@@ -58,12 +58,12 @@
                         </small>
                     </h3>
                 </div>
-                {% if item.hasImage == 'true' %}
+                {% if item.hasImage == true %}
                     <div class="col-sm-2 border-right">
                         <img src="{{item.src |safe}}" alt="" class="w-100">
                     </div>
                 {% endif %}
-                {% if item.hasTwoImages == 'true' %}
+                {% if item.hasTwoImages == true %}
                     <div class="col-sm-2 border-right">
                         <img src="{{item.image2src |safe}}" alt="" class="w-100">
                     </div>
