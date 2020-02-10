@@ -123,9 +123,9 @@ collections:
               - {label: "link", name: "link", widget: "string"}
               - {label: "src", name: "src", widget: "image"}
               - {label: "additionalText", name: "additionalText", widget: "string", required: false}
-              - {label: "hasReadmore", name: "text", widget: "boolean", required: false}
-              - {label: "hasImage", name: "text", widget: "boolean", required: false}
-              - {label: "hasTwoImages", name: "text", widget: "boolean", required: false}
+              - {label: "hasReadmore", name: "hasReadmore", widget: "boolean", required: false}
+              - {label: "hasImage", name: "hasImage", widget: "boolean", required: false}
+              - {label: "hasTwoImages", name: "hasTwoImages", widget: "boolean", required: false}
           - label: "Headline"
             name: 'headline'
             widget: string
