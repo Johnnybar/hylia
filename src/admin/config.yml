@@ -122,6 +122,7 @@ collections:
               - {label: "details", name: "details", widget: "string", required: false}
               - {label: "link", name: "link", widget: "string", required: false}
               - {label: "src", name: "src", widget: "image", , required: false}
+              - {label: "image2src", name: "image2src", widget: "image", , required: false}
               - {label: "additionalText", name: "additionalText", widget: "string", required: false}
               - {label: "hasReadmore", name: "hasReadmore", widget: "boolean", required: false}
               - {label: "hasImage", name: "hasImage", widget: "boolean", required: false}
