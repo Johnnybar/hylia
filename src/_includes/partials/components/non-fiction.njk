@@ -18,52 +18,61 @@
                             <details>
                                 <summary>
                                     <small>
-                                        <a href="{{item.link}}" target="_blank">
+                                        {% if item.link %}
+                                            <a href="{{item.link}}" target="_blank">
+                                                <span itemprop="name">
+                                                    {{item.summary |safe}}}</span>
+                                            </a>
+                                        {% else %}
                                             <span itemprop="name">
-                                                {{item.summary |safe}}}
-                                         </a>
-                                        </small>
-                                    </summary>
-                                    <small>
-                                        {{item.details}}}
-                            </small>
-                                </details>
-
-                                {% if item.additionalText  %}
-                                    <br>
-                                    {{item.additionalText}}
-                                    {% endif %}
-                            </h3>
-                        </div>
-                            {% if item.hasImage == 'true' %}
-                                <div class="col-sm-2 border-right">
-                                    <img src="{{item.src | safe}}" alt="" class="w-100">
-                                </div>
-                            {% endif %}
-                    {% else %}
-                        <div class="col-sm-2 border-right ">
-                            <h3 class="section-subheading mb-4 text-muted">
+                                                {{item.summary |safe}}}</span>
+                                        {% endif %}
+                                    </small>
+                                </summary>
                                 <small>
+                                    {{item.details}}}
+                            </small>
+                            </details>
+
+                            {% if item.additionalText %}
+                                <br>
+                                {{item.additionalText}}
+                            {% endif %}
+                        </h3>
+                    </div>
+                    {% if item.hasImage == 'true' %}
+                        <div class="col-sm-2 border-right">
+                            <img src="{{item.src | safe}}" alt="" class="w-100">
+                        </div>
+                    {% endif %}
+                {% else %}
+                    <div class="col-sm-2 border-right ">
+                        <h3 class="section-subheading mb-4 text-muted">
+                            <small>
+                                {% if item.link %}
                                     <a href="{{item.link | safe }}" target="_blank" rel="noopener noreferrer">
                                         {{item.summary | safe}}</a>
-                                </small>
-                            </h3>
-                        </div>
-                        {% if item.hasImage == 'true' %}
-                            <div class="col-sm-2 border-right">
-                                <img src="{{item.src |safe}}" alt="" class="w-100">
-                            </div>
-                        {% endif %}
-                        {% if item.hasTwoImages == 'true' %}
-                            <div class="col-sm-2 border-right">
-                                <img src="{{item.image2src |safe}}" alt="" class="w-100">
-                            </div>
-                        {% endif %}
-                    {% endif %}
-                {% endfor %}
-                {# {% endif %} #}
+                                {% else %}
+                                    {{item.summary | safe}}</a>
+                            {% endif %}
+                        </small>
+                    </h3>
+                </div>
+                {% if item.hasImage == 'true' %}
+                    <div class="col-sm-2 border-right">
+                        <img src="{{item.src |safe}}" alt="" class="w-100">
+                    </div>
+                {% endif %}
+                {% if item.hasTwoImages == 'true' %}
+                    <div class="col-sm-2 border-right">
+                        <img src="{{item.image2src |safe}}" alt="" class="w-100">
+                    </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+        {# {% endif %} #}
 
-            </div>
-        </div>
+    </div>
+</div>
 
-    </section>
+</section>
