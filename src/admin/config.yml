@@ -6,6 +6,7 @@ site_url: "https://affectionate-kirch-0533c4.netlify.com/"
 media_folder: "src/images"
 public_folder: "images"
 collections:
+
   - label: "Globals"
     name: "globals"
     files:
