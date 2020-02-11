@@ -18,7 +18,7 @@
 
             <div class="{{ itemClass }}">
 
-              <a class="w-50 h-50 mr-4 event-thumbnail" data-toggle="modal" href="#portfolioModal2"><img class="w-100" src={{item.imgSrc}} alt=""></a>
+              <a class="w-50 h-50 mr-4 event-thumbnail" data-toggle="modal" href="#portfolioModal2"><img class="w-100" src="{{item.imgSrc | safe}}" alt=""></a>
 
               <div>
                 <p class="w-100">
