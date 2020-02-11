@@ -10,5 +10,16 @@
       "isHebrew": true,
       "link": "https://www.haaretz.co.il/literature/prose/.premium-1.3172616"    
     }
+  ],
+  "interviews": [
+    {
+      "topText": "Israel's gay exodus?",
+      "bottomText": "Aljazeera, the Stream, interview, 17.6.2014",
+      "link": "http://stream.aljazeera.com/story/201406170004-0023844"
+    },
+    {
+      "topText": "DLF Kultur, radio broadcast 'Lesart', Interview, 6.9.2019",
+      "audio": "sound/lesart_juedische_autoren.mp3"    
+    }
   ]
 }

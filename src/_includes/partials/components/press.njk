@@ -35,7 +35,37 @@
                     </blockquote>
 
                 {% endfor %}
+                <div class="col-lg-12 text-center">
+                <h3 class="section-heading text-uppercase mb-5">Interviews</h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-10 col-sm-10 text-left">
+                {% for interview in press.interviews %}
+                    <h3 class="section-subheading text-muted">
+                        {% if interview.link %}
+                    <a href="http://stream.aljazeera.com/story/201406170004-0023844" target="_blank" rel="noopener noreferrer">
+                    <b>{{interview.topText}}</b>
+                    </a>
+                        {% else %}
+                        <b>{{interview.topText}}</b>
+                        {% endif %}
+                        <br>
+                        {% if interview.bottomText %}
+                        {{interview.bottomText}}
+                        {% endif %}
+                        {% if interview.audio %}
+                        <audio controls="">
+                                <source src="{{interview.audio}}" type="audio/mpeg">
+                                Your browser does not support the audio tag.
+                            </audio>
+                        {% endif %}
+                    </h3>
+                {% endfor %}
+                </div>
 
+      
+            </div>
+                
             </div>
         </div>
     </div>

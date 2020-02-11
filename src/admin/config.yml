@@ -187,6 +187,14 @@ collections:
               - {label: "quote", name: "quote", widget: "string"}
               - {label: "isHebrew", name: "isHebrew", widget: "boolean", required: false}
               - {label: "link", name: "link", widget: "string", required: false}
+          - label: "interviews"
+            name: "interviews"
+            widget: "list"
+            fields:
+              - {label: "topText", name: "topText", widget: "string"}
+              - {label: "bottomText", name: "bottomText", widget: "string", required: false}
+              - {label: "audio", name: "audio", widget: "string", required: false}
+              - {label: "link", name: "link", widget: "string", required: false}
       - label: "Theme Settings"
         name: "theme"
         delete: false
