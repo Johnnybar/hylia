@@ -1,14 +1,56 @@
 {
   "items": [
     {
-      "quote": "Vigorously written, with a delicate and precise hand and a rare combination of wit and compassion.",
-      "bottomText": "Author Amos Oz"
+      "bottomText": "Author Amos Oz",
+      "quote": "Vigorously written, with a delicate and precise hand and a rare combination of wit and compassion."
     },
     {
-      "quote": "קובץ הסיפורים של הילה עמית הוא מצרך נדיר בספרות העברית.",
-      "bottomText": "יוני ליבנה, ידיעות אחרונות, 22.11.2016",
+      "bottomText": "Vered Lee, Haaretz",
+      "quote": "The main strength of the book is the ability to undermine stigmas and prejudices and to undo the process of marking people as “the other.” Amit writes differently about “different” people … Amit’s prose is endowed with restraint, quietness, empathy, much delicacy and a minimalist style … The last story in the book is the loveliest, most complete and most melancholic in the collection … Moving on from Bliss is characterized by a unique and beautiful voice … by the courage to write political-social literature without compromise or fawning, by a humanistic methodology."
+    },
+    {
+      "bottomText": "Nissim Calderon, Odot",
+      "quote": "The trials faced by the characters are serious, and gradually become more serious as the book unfolds. At times, good literature is literature that focuses on critical decisions … It’s been years since I read a book that has a title that is so intriguing, so different … For Hila Amit, to move on from bliss means emptiness and loss. But, for her moving on from bliss also means nobility"
+    },
+    {
+      "bottomText": "Yoni Livneh, Yedioth Ahronoth",
+      "quote": " In order to explain the satisfaction this short book elicits; the pleasantly tearful throbs that occur at a frequency of once or twice during almost all of the stories that it contains; the response of a number of characters on the brink of despair and grief to Hila Amit’s firm but not aggressive treatment – in order to explain all of these, one must go back to the misleading first impression given by the encounter with her first book Moving on from Bliss ... Unlike the masochistic, traumatized approach that has gradually become the trademark of Israeli literature … Amit finds different ways, some of them simple and very effective, to rein in tragedy and the cheap handling of heartache … Nothing here is bombastic or self-satisfied. The characters themselves control the situations, playing gently with the permissible and the forbidden … An empathetic, measured connection is created between the reader and the stories"
+    },
+    {
+      "bottomText": "Nissim Calderon, Walla",
+      "quote": "It’s been ages since I read such a good and promising first book … Like in real literature, the stylistic implement is suited to the author’s goals … I do not have words of my own to describe the delicacy, and the richness, and the beauty. "
+    },
+    {
+      "bottomText": "Nissim Calderon, Walla",
+      "quote": " It’s been ages since I read such a good and promising first book … Like in real literature, the stylistic implement is suited to the author’s goals … I do not have words of my own to describe the delicacy, and the richness, and the beauty. "
+    },
+    {
+      "bottomText": "Karin Michaeli, At",
+      "quote": " A lovely collection … Gentle, sensitive prose about life."
+    },
+    {
+      "bottomText": "מאושרי והלאה\": הגיבורים האחרים של הילה עמית , ורד לי, הארץ, 29.12.2016",
+      "quote": "גיבורי הספר הזה הם מי שההגמוניה הישראלית סימנה כ\"אחר\", ויופיו טמון בכך שהוא לא מניף דגלים, אלא חותר תחת הדעות הקדומות בכוחה של האנושיות",
       "isHebrew": true,
-      "link": "https://www.haaretz.co.il/literature/prose/.premium-1.3172616"    
+      "link": "https://www.haaretz.co.il/literature/prose/.premium-1.3172616"
+    },
+    {
+      "bottomText": "יוני ליבנה, ידיעות אחרונות, 22.11.2016",
+      "quote": "קובץ הסיפורים של הילה עמית הוא מצרך נדיר בספרות העברית.",
+      "isHebrew": true,
+      "link": "https://www.haaretz.co.il/literature/prose/.premium-1.3172616"
+    },
+    {
+      "bottomText": "מאושרי והלאה: \"מזמן לא קראנו ספר ביכורים טוב כל כך\", נסים קלדרון, וואלה, 14.3.2017",
+      "quote": "בספרה הראשון ברור שהסופרת הילה עמית לא מעוניינת לערפל. היא לא מעוניינת להכות מסביב לצמח. היא הולכת בעברית הישירה ביותר אל לב הצמח, אל לב ההחלטה. והחלטות הן בדיוק הדבר המרכזי בספר הנהדר הזה.",
+      "isHebrew": true,
+      "link": "https://e.walla.co.il/item/3_048114"
+    },
+    {
+      "bottomText": "את, 7.6.2017",
+      "quote": "ספרים מומלצים שיעבירו לך את הקיץ לאט ובטוח.",
+      "isHebrew": true,
+      "link": "https://www.atmag.co.il/%D7%A1%D7%A4%D7%A8%D7%99%D7%9D-%D7%9C%D7%97%D7%95%D7%93%D7%A9-%D7%99%D7%95%D7%A0%D7%99-2017/"
     }
   ],
   "interviews": [
@@ -19,7 +61,7 @@
     },
     {
       "topText": "DLF Kultur, radio broadcast 'Lesart', Interview, 6.9.2019",
-      "audio": "sound/lesart_juedische_autoren.mp3"    
+      "audio": "sound/lesart_juedische_autoren.mp3"
     }
   ]
 }
