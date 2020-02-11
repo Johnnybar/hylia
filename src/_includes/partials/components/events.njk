@@ -9,16 +9,19 @@
       <!-- Left side -->
 
       <div class="col-sm-12 px-5 text-left d-flex flex-wrap">
-        {% set itemClass = "d-flex h-7 col-sm-6 mb-5" %}
         {% for item in events.items %}
-          {% if item.isHebrew == true %}
+        {% set itemClass = "d-flex h-7 col-sm-6 mb-5" %}
+          {% if item.isHebrew  %}
+        
             {% set itemClass = "d-flex h-7 col-sm-6 mb-5 text-right" %}
           {% endif %}
           {% if item.hasImage == true %}
-
+          {# {{item.isHebrew}} #}
             <div class="{{ itemClass }}">
 
-              <a class="w-50 h-50 mr-4 event-thumbnail" data-toggle="modal" href="#portfolioModal2"><img class="w-100" src="{{item.imgSrc | safe}}" alt=""></a>
+              <a class="w-50 h-50 mr-4 event-thumbnail" data-toggle="modal" href="#portfolioModal2">
+              <img class="w-100" src="{{item.imgSrc | safe}}" alt="">
+              </a>
 
               <div>
                 <p class="w-100">

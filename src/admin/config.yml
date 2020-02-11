@@ -161,7 +161,7 @@ collections:
               - {label: "bottomText", name: "bottomText", widget: "string"}
               - {label: "isHebrew", name: "isHebrew", widget: "boolean", required: false}
               - {label: "link", name: "link", widget: "string", required: false}
-              - {label: "src", name: "src", widget: "image", , required: false}
+              - {label: "imgSrc", name: "imgSrc", widget: "image", , required: false}
               - {label: "hasImage", name: "hasImage", widget: "boolean", required: false}
       - label: "Theme Settings"
         name: "theme"
