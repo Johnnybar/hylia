@@ -16,6 +16,23 @@
       "topText": "Donau115, Berlin",
       "bottomText": "Asylum: Words & Sounds, 26.8.2019",
       "link": "http://donau115.de/"
+    },
+    {
+      "topText": "ערב השקה לספר \"מאושרי והלאה\"",
+      "bottomText": "ברלין, 1.12.2016",
+      "isHebrew": true,
+      "imgSrc": "images/hashaka-berlin.png",
+      "hasImage": true
+    },
+    {
+      "topText": "Israeli Book Club, B’nai Jeshurun Synagogue, Manhattan, NYC",
+      "bottomText": "A talk about “Moving on from Bliss”, 1.6.2019",
+      "link": "https://www.eventbrite.com/e/israeli-book-club-tickets-47954940518"
+    },
+    {
+      "topText": "Weak Resistance 2",
+      "bottomText": "Precarity, Diasporas, Movements Lecture, ICI – Berlin, 8.7.2016",
+      "link": "https://www.ici-berlin.org/events/weak-resistance-2/"
     }
   ]
 }
