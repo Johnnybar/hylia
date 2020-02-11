@@ -6,17 +6,16 @@
       "link": "http://www.juedische-woche-dresden.de/index.php/detailansicht-84/mati-shemoelof-friends.html"
     },
     {
-      "topText": "השקת הספר – אוניברסיטת תל אביב",
-      "bottomText": "20.12.2018",
-      "isHebrew": true
+      "topText": "ערב השקה לספר \"מאושרי והלאה\"",
+      "bottomText": "תולעת ספרים, תל אביב, 20.11.2016",
+      "isHebrew": true,
+      "src": "images/hashaka-telaviv.png",
+      "hasImage": true
     },
     {
-      "topText": "השקת הספר – אוניברסיטת תל אביב",
-      "bottomText": "20.12.2018",
-      "hasImage": true,
-      "imgSrc": "images/queerinberlin.png",
-      "isHebrew": true
+      "topText": "Donau115, Berlin",
+      "bottomText": "Asylum: Words & Sounds, 26.8.2019",
+      "link": "http://donau115.de/"
     }
-    
   ]
 }
