@@ -1,15 +1,14 @@
 @import 'config';
 
-// Pull in the stalfos lib
-@import '../../node_modules/stalfos/stalfos.scss';
+
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss"; 
 // Local mixins
-@import 'mixins/dark-mode';
+// @import 'mixins/dark-mode';
 
-@import 'theme';
+// @import 'theme';
 // Local dependencies
-@import 'typography';
+// @import 'typography';
 
 /**
  * GLOBAL STYLES
@@ -40,28 +39,46 @@ hr {
   margin: get-size(900) auto;
 }
 
+.navbar-brand {
+  color: black !important;
+}
+a {
+  color:#61bcc6 !important;
+}
+.nav-link  {
+  color: black !important;
+}
+.nav-link.active {
+  color: #61bcc6 !important
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /**
  * PROJECT IMPORTS
  */
 
-// Utils
-@import 'utilities/inner-wrapper';
-@import 'utilities/visually-hidden';
-@import 'utilities/wrapper';
+// // Utils
+// @import 'utilities/inner-wrapper';
+// @import 'utilities/visually-hidden';
+// @import 'utilities/wrapper';
 
 @import 'agency/agency';
 
 
 // Components
-@import 'components/button';
-@import 'components/heading-permalink';
-@import 'components/intro';
-@import 'components/nav';
-@import 'components/pagination';
-@import 'components/post';
-@import 'components/post-list';
-@import 'components/site-head';
-@import 'components/site-foot';
-@import 'components/skip-link';
-@import 'components/syntax-highlighting';
+// @import 'components/button';
+// @import 'components/heading-permalink';
+// @import 'components/intro';
+// @import 'components/nav';
+// @import 'components/pagination';
+// @import 'components/post';
+// @import 'components/post-list';
+// @import 'components/site-head';
+// @import 'components/site-foot';
+// @import 'components/skip-link';
+// @import 'components/syntax-highlighting';
 // @import 'components/video-player';
