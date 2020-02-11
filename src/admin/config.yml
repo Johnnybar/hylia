@@ -82,6 +82,17 @@ collections:
             widget: "list"
             fields:
               - {label: "Text", name: "text", widget: "string"}
+      - label: "teaching"
+        name: "teaching"
+        delete: false
+        file: "src/_data/teaching.json"
+        fields:
+          - label: "mainText"
+            name: "mainText"
+            widget: string
+          - label: "secondaryText"
+            name: "secondaryText"
+            widget: string
       - label: "Navigation"
         name: "nav"
         delete: false
@@ -163,6 +174,19 @@ collections:
               - {label: "link", name: "link", widget: "string", required: false}
               - {label: "imgSrc", name: "imgSrc", widget: "image", , required: false}
               - {label: "hasImage", name: "hasImage", widget: "boolean", required: false}
+      - label: "press"
+        name: "press"
+        delete: false
+        file: "src/_data/press.json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "bottomText", name: "bottomText", widget: "string"}
+              - {label: "quote", name: "quote", widget: "string"}
+              - {label: "isHebrew", name: "isHebrew", widget: "boolean", required: false}
+              - {label: "link", name: "link", widget: "string", required: false}
       - label: "Theme Settings"
         name: "theme"
         delete: false

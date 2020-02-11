@@ -1,24 +1,4 @@
 {% if navigation.items %}
-  {# <nav class="nav">
-    <ul class="[ nav__list ] [ box-flex align-center md:space-before ]">
-      {% for item in navigation.items %}
-        {% set relAttribute = '' %}
-        {% set currentAttribute = '' %}
-
-        {% if item.rel %}
-          {% set relAttribute = ' rel="' + item.rel + '"' %}
-        {% endif %}
-
-        {% if page.url == item.url %}
-          {% set currentAttribute = ' aria-current="page"' %}
-        {% endif %}
-
-        <li class="nav__item">
-          <a href="{{ item.url }}"{{ relAttribute | safe }}{{ currentAttribute | safe }}>{{ item.text }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </nav> #}
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">Dr. Hila Amit</a>
@@ -53,6 +33,5 @@
             </div>
         </div>
     </nav>
-
     
 {% endif %}
