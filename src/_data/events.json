@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "topText": "Jüdische Woche, Dresden",
+      "bottomText": "The Culture of the Arab-Jews : Lyrik ohne Grenzen, 1.11.2019",
+      "link": "http://www.juedische-woche-dresden.de/index.php/detailansicht-84/mati-shemoelof-friends.html"
+    },
+    {
+      "topText": "השקת הספר – אוניברסיטת תל אביב",
+      "bottomText": "20.12.2018",
+      "isHebrew": true
+    },
+    {
+      "topText": "השקת הספר – אוניברסיטת תל אביב",
+      "bottomText": "20.12.2018",
+      "hasImage": true,
+      "imgSrc": "images/queerinberlin.png",
+      "isHebrew": true
+    }
+    
+  ]
+}

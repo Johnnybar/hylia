@@ -1,0 +1,74 @@
+<section class="bg-light" id="events">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10  col-lg-10 text-center">
+        <h2 class="section-heading text-uppercase mb-5">Events</h2>
+      </div>
+    </div>
+    <div class="row text-center">
+      <!-- Left side -->
+
+      <div class="col-sm-12 px-5 text-left d-flex flex-wrap">
+        {% set itemClass = "d-flex h-7 col-sm-6 mb-5" %}
+        {% for item in events.items %}
+          {% if item.isHebrew == true %}
+            {% set itemClass = "d-flex h-7 col-sm-6 mb-5 text-right" %}
+          {% endif %}
+          {% if item.hasImage == true %}
+
+            <div class="{{ itemClass }}">
+
+              <a class="w-50 h-50 mr-4 event-thumbnail" data-toggle="modal" href="#portfolioModal2"><img class="w-100" src={{item.imgSrc}} alt=""></a>
+
+              <div>
+                <p class="w-100">
+                  {% if item.link %}
+                    <b>
+                      <i>
+                        <a href={{item.link}} target="_blank">
+                          {{item.topText}}
+                        </a>
+                      </b>
+                    {% else %}
+                      <b>
+                        {{item.topText}}
+                      </b>
+
+                    {% endif %}
+
+                  </i><br>{{item.bottomText}}<br>
+                </p>
+              </div>
+            </div>
+
+          {% else %}
+            <div  class="{{ itemClass }}">
+              <p class="w-100">
+                <i>
+                   {% if item.link %}
+                    <b>
+                      <i>
+                        <a href={{item.link}} target="_blank">
+                          {{item.topText}}
+                        </a>
+                      </b>
+                    {% else %}
+                      <b>
+                        {{item.topText}}
+                      </b>
+
+                    {% endif %}
+                </i><br> {{item.bottomText}}
+                            <br></p>
+            </div>
+          {% endif %}
+         
+        {% endfor %}
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
