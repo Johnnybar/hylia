@@ -32,6 +32,13 @@
       "details": "",
       "src": "images/hebrewforall-de.png",
       "image2src": "images/hebrewforall-he.png"
+    },
+    {
+      "summary": "Test summary",
+      "details": "test details",
+      "link": "test link",
+      "src": "images/demo-image-2.jpg",
+      "additionalText": "this is test additional text"
     }
   ],
   "headline": "Dr. Amit’s fiction stems from the political context of Israel/Palestinian and her own experience as a Mizrahi (Arab-Jew) lesbian in Israel. Her fiction and her non-fiction work are based on her academic studies, as well as on her activist work in Israel and Palestine. The work was well-received critically and was warmly acclaimed by, among others, Amos Oz."
