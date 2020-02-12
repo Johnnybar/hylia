@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
+   <!-- Magnific Popup core CSS file -->
+{# <link rel="stylesheet" href="/src/js/components/magnific/magnific-popup.css" Content-Type="text/css"> #}
+
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
   <link rel="icon" href="{{ site.faviconPath }}" type="image/png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
@@ -38,6 +40,18 @@
     }
   </script>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async defer></script>
-  
+ 
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- Magnific Popup core JS file -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha256-P93G0oq6PBPWTP1IR8Mz/0jHHUpaWL0aBJTKauisG7Q=" crossorigin="anonymous"></script>
+ <script>
+$('.profile-img-intro-zoom').magnificPopup({
+  type: 'image'
+  // other options
+});
+</script>
 </body>
 </html>
