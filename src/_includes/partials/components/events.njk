@@ -10,21 +10,24 @@
 
       <div class="col-sm-12 px-5 text-left d-flex flex-wrap">
         {% for item in events.items %}
-        {% set itemClass = "d-flex h-7 col-sm-6 mb-5" %}
-          {% if item.isHebrew  %}
-        
+          {% set itemClass = "d-flex h-7 col-sm-6 mb-5" %}
+          {% set alignment = "ltr" %}
+          {% if item.isHebrew %}
             {% set itemClass = "d-flex h-7 col-sm-6 mb-5 text-right" %}
+            {% set alignment = "rtl" %}
           {% endif %}
-          {% if item.imgSrc  %}
-          {# {{item.isHebrew}} #}
+          {% if item.imgSrc %}
+            {# {{item.isHebrew}} #}
             <div class="{{ itemClass }}">
               <div class="zoom-items w-50 h-50 mr-4 event-thumbnail">
-              <a class="" href="{{item.imgSrc | safe}}">
-              <img class="w-100" src="{{item.imgSrc | safe}}" alt="">
-              </a>
+                <a class="" href="{{item.imgSrc | safe}}">
+                  <img class="w-100" src="{{item.imgSrc | safe}}" alt="">
+                </a>
               </div>
 
               <div>
+
+                <bdo dir="{{alignment}}">
                 <p class="w-100">
                   {% if item.link %}
                     <b>
@@ -42,13 +45,15 @@
 
                   </i><br>{{item.bottomText}}<br>
                 </p>
+                </bdo>
               </div>
             </div>
           {% else %}
             <div  class="{{ itemClass }}">
+            <bdo dir="{{alignment}}">
               <p class="w-100">
                 <i>
-                   {% if item.link %}
+                  {% if item.link %}
                     <b>
                       <i>
                         <a href={{item.link}} target="_blank">
@@ -61,17 +66,20 @@
                       </b>
 
                     {% endif %}
-                </i><br> {{item.bottomText}}
-                            <br></p>
-            </div>
-          {% endif %}
-         
-        {% endfor %}
+                  </i><br>
+                  {{item.bottomText}}
+                  <br>
+                  </p>
+                  </bdo>
+              </div>
+            {% endif %}
+
+          {% endfor %}
+
+        </div>
 
       </div>
 
     </div>
 
-  </div>
-
-</section>
+  </section>
