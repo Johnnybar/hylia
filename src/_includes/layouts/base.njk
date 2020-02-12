@@ -52,6 +52,27 @@ $('.profile-img-intro-zoom').magnificPopup({
   type: 'image'
   // other options
 });
+$('.zoom-items').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image'
+  // other options
+});
+</script>
+<script>
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+    $target = $(event.target); 
+    
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+    $('.nav-link').removeClass('active');
+    if($(event.target).hasClass('nav-link')){      
+      $target.toggleClass('active');
+    }
+});
+
+
 </script>
 </body>
 </html>

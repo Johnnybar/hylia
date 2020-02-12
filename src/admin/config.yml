@@ -89,9 +89,6 @@ collections:
               - {label: "src", name: "src", widget: "image", , required: false}
               - {label: "image2src", name: "image2src", widget: "image", , required: false}
               - {label: "additionalText", name: "additionalText", widget: "string", required: false}
-              - {label: "hasReadmore", name: "hasReadmore", widget: "boolean", required: false}
-              - {label: "hasImage", name: "hasImage", widget: "boolean", required: false}
-              - {label: "hasTwoImages", name: "hasTwoImages", widget: "boolean", required: false}
           - label: "Headline"
             name: 'headline'
             widget: string
@@ -110,9 +107,6 @@ collections:
               - {label: "src", name: "src", widget: "image", , required: false}
               - {label: "image2src", name: "image2src", widget: "image", , required: false}
               - {label: "additionalText", name: "additionalText", widget: "string", required: false}
-              - {label: "hasReadmore", name: "hasReadmore", widget: "boolean", required: false}
-              - {label: "hasImage", name: "hasImage", widget: "boolean", required: false}
-              - {label: "hasTwoImages", name: "hasTwoImages", widget: "boolean", required: false}
       - label: "events"
         name: "events"
         delete: false
@@ -127,7 +121,6 @@ collections:
               - {label: "isHebrew", name: "isHebrew", widget: "boolean", required: false}
               - {label: "link", name: "link", widget: "string", required: false}
               - {label: "imgSrc", name: "imgSrc", widget: "image", , required: false}
-              - {label: "hasImage", name: "hasImage", widget: "boolean", required: false}
       - label: "press"
         name: "press"
         delete: false
