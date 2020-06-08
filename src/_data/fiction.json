@@ -1,6 +1,5 @@
 {
-  "headline": "Dr. Amit’s fiction stems from the political context of Israel/Palestinian and her own experience as a Mizrahi (Arab-Jew) lesbian in Israel. Her fiction and her non-fiction work are based on her academic studies, as well as on her activist work in Israel and Palestine. The work was well-received critically and was warmly acclaimed by, among others, Amos Oz."   
-  ,
+  "headline": "Dr. Amit’s fiction stems from the political context of Israel/Palestinian and her own experience as a Mizrahi (Arab-Jew) lesbian in Israel. Her fiction and her non-fiction work are based on her academic studies, as well as on her activist work in Israel and Palestine. The work was well-received critically and was warmly acclaimed by, among others, Amos Oz.",
   "items": [
     {
       "text": "'Moving on from Bliss', Short Stories , Am Oved, 2016.",
@@ -25,6 +24,10 @@
     {
       "text": "'Morning, Michael', short story, in Bintaim 3 (March, 2009), pp. 41-44.",
       "src": "images/blank_cover.png"
+    },
+    {
+      "text": "'Moving on from Grace' ,Washington Square Review, Issue 44, Spring '20",
+      "src": "images/onsqu45-front.jpg"
     }
   ]
 }
