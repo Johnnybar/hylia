@@ -104,8 +104,8 @@ collections:
               - {label: "summary", name: "summary", widget: "string"}
               - {label: "details", name: "details", widget: "string", required: false}
               - {label: "link", name: "link", widget: "string", required: false}
-              - {label: "src", name: "src", widget: "image", , required: false}
-              - {label: "image2src", name: "image2src", widget: "image", , required: false}
+              - {label: "src", name: "src", widget: "image", required: false}
+              - {label: "image2src", name: "image2src", widget: "image", required: false}
               - {label: "additionalText", name: "additionalText", widget: "string", required: false}
       - label: "events"
         name: "events"
@@ -120,7 +120,7 @@ collections:
               - {label: "bottomText", name: "bottomText", widget: "string"}
               - {label: "isHebrew", name: "isHebrew", widget: "boolean", required: false}
               - {label: "link", name: "link", widget: "string", required: false}
-              - {label: "imgSrc", name: "imgSrc", widget: "image", , required: false}
+              - {label: "imgSrc", name: "imgSrc", widget: "image", required: false}
       - label: "press"
         name: "press"
         delete: false
