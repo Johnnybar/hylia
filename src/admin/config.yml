@@ -68,7 +68,7 @@ collections:
             widget: "list"
             fields:
               - {label: "Text", name: "text", widget: "string"}
-              - {label: "src", name: "src", widget: "image"}
+              - {label: "Src", name: "src", widget: "image"}
               - {label: "link", name: "text", widget: "boolean", required: false}
           - label: "Headline"
             name: 'headline'
