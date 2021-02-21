@@ -121,7 +121,7 @@
     {
       "topText": "Nahost Berlin",
       "isHebrew": false,
-      "bottomText": "Literarisches Colloquium Berlin - November 20, 2020. To information about the event please visit StadtSprachen.de. To view the panel Nationalism kaputt? Muslim and Jewish poetics of the diaspora please visit \"https://vimeo.com/478609025/3478119b65\".",
+      "bottomText": "Literarisches Colloquium Berlin - November 20, 2020. To information about the event please visit  <a href=\"stadtsprachen.de\" target=\"_blank\">\"StadtSprachen.de</a>. To view the panel Nationalism kaputt? Muslim and Jewish poetics of the diaspora please visit <a href=\"https://vimeo.com/478609025/3478119b65\" target=\"_blank\"> \"https://vimeo.com/478609025/3478119b65\".</a>",
       "imgSrc": "images/nahost-berlin-2.jpg",
       "link": ""
     }
