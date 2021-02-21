@@ -57,17 +57,17 @@
                     <b>
                       <i>
                         <a href={{item.link}} target="_blank">
-                          {{item.topText}}
+                          {{item.topText | safe}}
                         </a>
                       </b>
                     {% else %}
                       <b>
-                        {{item.topText}}
+                        {{item.topText | safe}}
                       </b>
 
                     {% endif %}
                   </i><br>
-                  {{(item.bottomText|safe)}}
+                  {{item.bottomText | safe}}
                   <br>
                   </p>
                   </bdo>
